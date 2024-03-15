@@ -13,31 +13,39 @@ class App extends React.Component {
           title: 'Стул серый',
           img: 'seriy_chair.jpg',
           desc: 'Очень качественный стул из китая, сделанный на века',
-          category: 'chairs',
+          category: 'chair',
           price: '49.99'
         },
         {
           id: 2,
-          title: 'Стул черный',
-          img: 'seriy_chair.jpg',
-          desc: 'Очень качественный стул из китая, сделанный на века',
-          category: 'chairs',
-          price: '49.99'
+          title: 'Диван черный',
+          img: 'black_sofa.jpg',
+          desc: 'Очень качественный диван из китая, сделанный на века. Раскладной, может служить как диван и как кровать.',
+          category: 'sofa',
+          price: '79.99'
         },
         {
           id: 3,
-          title: 'Стул желтый',
-          img: 'seriy_chair.jpg',
-          desc: 'Очень качественный стул из китая, сделанный на века',
-          category: 'chairs',
-          price: '49.99'
+          title: 'Шкаф белый',
+          img: 'wardrobe.jpg',
+          desc: 'Шкаф для ваших скелетов',
+          category: 'wardrobe',
+          price: '99.99'
         },
         {
           id: 4,
-          title: 'Стул красный',
-          img: 'seriy_chair.jpg',
-          desc: 'Очень качественный стул из китая, сделанный на века',
-          category: 'chairs',
+          title: 'Лампа настенная',
+          img: 'wall_lump.jpg',
+          desc: '  Что вершит судьбу человечества в этом мире? Некое незримое существо или закон, подобно Длани Господней парящей над миром? По крайне мере истинно то, что человек не властен даже над своей волей.',
+          category: 'lump',
+          price: '999.99'
+        },
+        {
+          id: 5,
+          title: 'Кресло серое',
+          img: 'chair.jpg',
+          desc: 'Идеально подходит для людей со скрытыми маниакальными наклонностями',
+          category: 'chair',
           price: '49.99'
         }
       ]
