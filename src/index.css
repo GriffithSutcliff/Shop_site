@@ -98,6 +98,19 @@ header .shop-cart .item h1{
 header .shop-cart .item b{
   color: green;
 }
+header .shop-cart .item .delete{
+  transition: transform 500ms ease;
+  transform: scale(1.5);
+}
+header .shop-cart .item .delete:hover{
+  color: red;
+  transform: scale(2)
+}
+header .shop-cart .sum{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
 main{
   display: flex;
   width: 100%;
