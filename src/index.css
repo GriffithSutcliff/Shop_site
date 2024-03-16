@@ -73,9 +73,30 @@ header .shop-cart{
   top: 70px;
   right: 0;
   width: 450px;
-  min-height: 100px;
   background-color: #bcbcbc;
+  padding: 20px;
+  padding-bottom: 0;
   z-index: 1000;
+}
+header .shop-cart .empty h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+header .shop-cart .item{
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+header .shop-cart .item img{
+  width: 250px;
+  float: left;
+}
+header .shop-cart .item h1{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+header .shop-cart .item b{
+  color: green;
 }
 main{
   display: flex;
