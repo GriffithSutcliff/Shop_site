@@ -13,6 +13,9 @@ body{
   width: 1280px;
   margin: 50px auto;
 }
+header{
+  position: relative;
+}
 header .logo{
   font-weight: 600;
   font-size: 40px;
@@ -49,6 +52,30 @@ header .presentation::after{
   font-size: 40px;
   font-weight: 600;
   color: #fff
+}
+header .shop-cart-button{
+  float: right;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+  margin-top: 15px;
+  font-size: 200%;
+}
+header .shop-cart-button:hover{
+  transform: scale(1.5);
+  color: green;
+}
+header .shop-cart-button.active{
+  transform: scale(1.5);
+  color: green;
+}
+header .shop-cart{
+  position: absolute;
+  top: 70px;
+  right: 0;
+  width: 450px;
+  min-height: 100px;
+  background-color: #bcbcbc;
+  z-index: 1000;
 }
 main{
   display: flex;

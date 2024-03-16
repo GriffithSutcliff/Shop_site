@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { GiShoppingBag } from "react-icons/gi";
 
-export default function header() {
+export default function Header() {
+  let [cartOpen, setCartOpen] = useState(false)
+
   return (
     <header>
         <div>
@@ -10,7 +13,13 @@ export default function header() {
                 <li>Контакты</li>
                 <li>Кабинет</li>
             </ul>
+            <GiShoppingBag onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`shop-cart-button ${cartOpen && 'active'}`}/>
         </div>
+        {cartOpen && (
+          <div className='shop-cart'>
+            
+          </div>
+        )}
         <div className='presentation'></div>
     </header>
   )
